@@ -1,0 +1,134 @@
+/* body */
+h1 {
+    color: #03045E;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    margin: 50px 0px 50px 100px;
+}
+
+.section-header {
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+.intro {
+    background-image: url("img/bluesky .jpg");
+    background-size: cover;
+}
+
+/* title */
+.navbar-custom {
+    background-color: #A6D1E6;
+}
+
+#title {
+    background-color: #A6D1E6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* about */
+
+
+.huitingimg {
+    width: 70%;
+    border-radius: 100%;
+    float: right;
+    margin: 10% 15%;
+}
+
+.self {
+    margin: 100px;
+    font-size: 3rem;
+    text-align: left;
+    color: #03045E
+}
+
+/* question */
+#question {
+    background-image: url("img/bluesky .jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutme {
+    line-height: 1.5rem;
+    margin: 50px auto;
+}
+
+.thinking {
+    width: 100%
+}
+
+.q {
+    padding: 7% auto
+}
+
+.answer {
+    line-height: 1.5rem;
+    margin: 50px auto;
+}
+
+
+/* contect */
+.iconimg {
+    width: 20%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.tag {
+    color: #03045E;
+}
+
+.tag:hover {
+    text-decoration: none;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #A6D1E6;
+}
+
+.color {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+        line-height: 1.5;
+        font-weight: bolder;
+    }
+
+    .self {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .huitingimg {
+        float: right
+    }
+
+    .q {
+        line-height: 1;
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        width: 100%
+    }
+}
